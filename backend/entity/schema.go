@@ -1,9 +1,9 @@
 package entity
 
 import (
-	// "time"
-
 	// "github.com/asaskevich/govalidator"
+	"time"
+
 	"gorm.io/gorm"
 )
 
@@ -116,9 +116,7 @@ type Receipt struct {
 
 type Purchase struct {
 	gorm.Model
-	Name         string
-	ProductImage string
-	Description  string
+	Time time.Time
 
 	PaymentMethodID *uint
 	PaymentMethod   PaymentMethod
