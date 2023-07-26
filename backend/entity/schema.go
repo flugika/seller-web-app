@@ -159,7 +159,6 @@ type Purchase struct {
 // 	// 	}
 // 	// 	return s < 1
 // 	// }))
-
 // }
 
 // Firstname   string `valid:"required~Firstname cannot be blank"`
