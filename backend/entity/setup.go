@@ -1115,16 +1115,16 @@ func SetupDatabase() {
 	IDPtr4 := &ID4
 	ID5 := uint(5)
 	IDPtr5 := &ID5
-	ID6 := uint(6)
-	IDPtr6 := &ID6
+	// ID6 := uint(6)
+	// IDPtr6 := &ID6
 	ID7 := uint(7)
 	IDPtr7 := &ID7
-	ID8 := uint(8)
-	IDPtr8 := &ID8
+	// ID8 := uint(8)
+	// IDPtr8 := &ID8
 	ID9 := uint(9)
 	IDPtr9 := &ID9
-	ID10 := uint(10)
-	IDPtr10 := &ID10
+	// ID10 := uint(10)
+	// IDPtr10 := &ID10
 
 	password1, _ := bcrypt.GenerateFromPassword([]byte("111"), 14)
 	user1 := User{
